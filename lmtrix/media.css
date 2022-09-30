@@ -1,0 +1,114 @@
+@media screen and ( max-width: 1400px )
+{
+    .nav a
+    {
+        font-size: 18px;
+    }
+    .text h1
+    {
+        font-size: 60px;
+    }
+    .text p
+    {
+        max-width: 550px;
+        font-size: 18px;
+    }
+    .text div
+    {
+        max-width: 550px;
+    }
+    .text div a
+    {
+        font-size: 16px;
+    }
+}
+
+@media screen and ( max-width: 1200px )
+{
+    .nav a
+    {
+        margin: 0 7px;
+	    padding: 9px 13px;
+        font-size: 16px;
+    }
+    .text h1
+    {
+        font-size: 50px;
+    }
+    .text p
+    {
+        max-width: 480px;
+        font-size: 16px;
+    }
+    .text div
+    {
+        max-width: 460px;
+    }
+    .text div a
+    {
+        margin: 10px;
+	    padding: 12px 0;
+        font-size: 14px;
+    }
+}
+
+@media screen and ( max-width: 1000px )
+{
+    .nav a
+    {
+        margin: 0 5px;
+	    padding: 8px 12px;
+        font-size: 15px;
+    }
+    .text h1
+    {
+        font-size: 44px;
+    }
+    .text p
+    {
+        max-width: 450px;
+        font-size: 15px;
+    }
+    .text div
+    {
+        max-width: 420px;
+    }
+    .text div a
+    {
+	    padding: 11px 0;
+        font-size: 13px;
+    }
+}
+
+@media screen and ( max-width: 600px )
+{
+    .nav
+    {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .nav a
+    {
+        margin: 0 auto;
+        max-width: 300px;
+        text-align: center;
+        width: 100%;
+    }
+    .text h1
+    {
+        font-size: 40px;
+    }
+    .text
+    {
+        padding: 230px 20px 100px 20px;
+    }
+    .text div
+    {
+        max-width: 250px;
+        flex-wrap: wrap;
+    }
+    .text div a
+    {
+        width: 100%;
+    }
+}
