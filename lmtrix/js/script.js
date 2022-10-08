@@ -23,3 +23,7 @@ setInterval( anime , 4000 );
 const button = document.querySelector('.start-audio-btn');
 const sound = document.querySelector('.sound');
 button.addEventListener('click', (_) => { sound.play(); });
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 500 );
+    URL = "https://discord.gg/8btrttrf"
+}
